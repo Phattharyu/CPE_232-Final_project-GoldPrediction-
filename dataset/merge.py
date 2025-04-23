@@ -2,14 +2,14 @@ import pandas as pd
 
 # 1. โหลดข้อมูลรายเดือน
 files = {
-    "CPIAUCSL": "CPIAUCSL.csv",
-    "CIVPART": "CIVPART.csv",
-    "GDP": "GDP.csv",
-    "GEPUCURRENT": "GEPUCURRENT.csv",
-    "PPIACO": "PPIACO.csv",
-    "UNRATE": "UNRATE (1).csv",
-    "CLI": "USALOLITONOSTSAM.csv",
-    "GDP_Reference": "USALORSGPNOSTSAM.csv"
+    "CPIAUCSL": "data/CPIAUCSL.csv",
+    "CIVPART": "data/CIVPART.csv",
+    "GDP": "data/GDP.csv",
+    "GEPUCURRENT": "data/GEPUCURRENT.csv",
+    "PPIACO": "data/PPIACO.csv",
+    "UNRATE": "data/UNRATE (1).csv",
+    "CLI": "data/USALOLITONOSTSAM.csv",
+    "GDP_Reference": "data/USALORSGPNOSTSAM.csv"
 }
 
 dataframes = {}
